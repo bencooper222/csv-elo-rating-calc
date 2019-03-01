@@ -1,0 +1,20 @@
+{
+  "name": "csv-elo-rating-calc",
+  "version": "1.0.0",
+  "description": "Creates elo ranking of leagues.",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "csv": "^5.1.1",
+    "elo-rating": "^1.0.1",
+    "fs-extra": "^7.0.1",
+    "parcel-bundler": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "site:listen": "parcel display/index.html"
+  },
+  "author": "Benjamin Cooper",
+  "license": "MIT"
+}
